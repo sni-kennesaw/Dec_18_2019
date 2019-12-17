@@ -4,9 +4,9 @@ proc princomp data=class.claim out=sherry.claimprin;
        vehicle_val clm_freq mvr_pts vehicle_age;
 run;
 
-proc gplot data=class.claimprin;
+proc gplot data=sherry.claimprin;
    plot prin1*prin2=claim_ind;
-   plot prin1*prin2=1;
+   * plot prin1*prin2=1;
 run;
 
 *********VARCLUS on the claim data set**********;
