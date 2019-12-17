@@ -1,3 +1,7 @@
+*We would like to predict the subjective evaluation of a set of 5 wines;  
+*The dependent variables are its likeability, how it goes with meant, or dessert;
+*The predictors are the price, the sugar, alcohol, and acidity content of each wine; 
+
 data sherry.wine;
    input y_hedonic y_goesm y_goesd x_price x_sugar x_alcohol x_acidity;
    cards;
