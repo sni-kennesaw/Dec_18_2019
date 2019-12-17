@@ -1,5 +1,5 @@
 ********PCA on the claim data set*********;
-proc princom data=class.claim out=sherry.claimprin; 
+proc princomp data=class.claim out=sherry.claimprin; 
    var age children child_driv clm_freq YOJ income house_val distance 
        vehicle_val clm_freq mvr_pts vehicle_age;
 run;
